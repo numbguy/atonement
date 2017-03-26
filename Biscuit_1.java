@@ -49,9 +49,13 @@ class Comparator{
 		{
 			System.out.println(name+" "+"is good which taste"+" "+taste);
 		}
+		else if(i<j)
+		{
+			System.out.println(ob2.name+" "+"is good which taste"+" "+ob2.taste);
+		}
 		else
 		{
-			System.out.println(ob2.name+" "+"is good which taste"+" "+taste);
+			System.out.println("both are same good");
 		}
 		return 0;
 	}
